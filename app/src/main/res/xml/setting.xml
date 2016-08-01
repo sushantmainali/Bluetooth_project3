@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="Bluetooth Settings" android:key="main_setting">
+<!--     <Preference android:title="@string/add_devices_button_string" android:summary="press to add devices" android:enabled="true" android:key="@string/add_button_ID" android:selectable="true"/> -->
+<!--     <Preference android:key="@string/remove_button_ID" android:title="@string/remove_devices_button_string" android:summary="press to remove the device" android:selectable="true" android:enabled="true"/> -->
+<!--   <Preference android:title="@string/back_button_string" android:summary="back to main" android:key="@string/back_button_ID"/>   -->
+<!--     <PreferenceScreen android:title="@string/add_devices_button_string" android:key="@string/add_button_ID" android:summary="Press to add device" android:enabled="true" android:selectable="true">
+        <EditTextPreference android:enabled="true" android:selectable="true" android:key="@string/device_name_ID" android:title="@string/device_name_string"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:key="@string/remove_button_ID" android:title="@string/remove_devices_button_string" android:summary="Press to remove device" android:enabled="true" android:selectable="true">
+        <MultiSelectListPreference android:enabled="false" android:selectable="false" android:title="@string/list_of_remove_device" android:key="@string/list_of_remove_device_id"/>
+    </PreferenceScreen>  --> 
+    
+
+</PreferenceScreen>

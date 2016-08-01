@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.example.bluetoothle"
+        minSdkVersion 19
+        targetSdkVersion 20
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile files('libs/AndroidIBeaconLibrary-0.7.7.jar')
+    compile files('libs/AndroidProximityLibrary-1.1.4.jar')
+    compile files('libs/droidparts.jar')
+    compile files('libs/eventbus-3.0.0.jar')
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'joda-time:joda-time:2.4'
+}

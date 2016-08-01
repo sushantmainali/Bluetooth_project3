@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BluetoothLe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Buttons -->
+    <string name="demo_button_string">Demo </string>
+    <string name="shutdown_button_string">Shut </string>
+    <string name="scan_button_string">Scan </string>
+    <string name="Connect_button_string">Connect </string>
+    <string name="add_device_button_string">Add Device </string>
+    <string name="close_button_string">Close </string>
+    <string name="disconnect_button_string">Disconnect </string>
+    <string name="remove_button_string">Remove Device </string>
+
+    <!-- setting layout -->
+    <string name="setting_textview_string">Settings </string>
+    <string name="add_devices_button_string">Add Device </string>
+    <string name="remove_devices_button_string">Remove\nDevice </string>
+    <string name="back_button_string">Back </string>
+    <string name="title_activity_setting_activity">MainActivity</string>
+
+    <!-- setting buttons ID -->
+    <string name="add_button_ID">add_device_button</string>
+    <string name="remove_button_ID">remove_device_button</string>
+    <string name="back_button_ID">back_button</string>
+    <string name="list_of_remove_device">List of Devices</string>
+    <string name="list_of_remove_device_id">list_device_id</string>
+
+    <!-- ADD Device strings -->
+    <string name="MAC_address_editText_string">Enter MAC Address</string>
+    <string name="device_name_editText_string">Enter Device Name</string>
+    <string name="MAC_address_viewText_string"> </string>
+    <string name="device_name_viewText_string"> </string>
+    <string name="set_button_string">Set Device</string>
+    <string name="device_name_string">Enter Device Name</string>
+    <string name="title_activity_add__device__fragment">Add_Device_Fragment</string>
+    <string name="title_activity_add_device_fragment">Add_device_fragment</string>
+    <string name="empty_text">Empty</string>
+
+    <!-- Device list Fragment -->
+    <string name="string_device_list_address">Device Address</string>
+    <string name="device_list_address_1">Device Address 1</string>
+    <string name="device_list_address_2">Device Address 2</string>
+    <string name="device_list_address_3">Device Address 3</string>
+    <string name="device_list_address_4">Device Address 4</string>
+    <string name="device_list_address_5">Device Address 5</string>
+    <string name="textView_MacAddress">Enter Mac Address</string>
+    <string name="textView_device_name">Enter Device Name</string>
+    <string name="string_button_remove">Remove</string>
+
+    <!-- empty fragment text View -->
+    <string name="string_under_construction">Under Construction...</string>
+
+    <string name="ble_not_supported">Bluetooth Low Energy is not supported in your Device. \n Get new one</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--     <string name="combined_device_detail_spliter_with_space">   </string>
+    <string name="combined_device_detail_spliter_with_underscore">__</string> -->
+
+    <string name="testview_device_name" translatable="false"> Device Name </string>
+    <string name="testview_device_address" translatable="false"> Address </string>
+    <string name="default_device_name_unknown" translatable="false"> Unknown </string>
+    <string name="default_device_address_unknown" translatable="false"> XX:XX:XX:XX:XX </string>
+
+    <string name="testview_connected_device_name" translatable="false"> Connected Device</string>
+    <string name="testview_added_device_name" translatable="false"> Added Device </string>
+    <string name="testview_scanned_device_name" translatable="false"> Scanned Device </string>
+
+</resources>
